@@ -13,9 +13,9 @@ npm install youtube-channel-live-stream
 # Usage
 
 ```
-var ytChLiveStream = require('trthaber') // 
+var ytChLiveStream = require('youtube-channel-live-stream') // 
 
-ytChLiveStream.getLiveStream('TivibuSporTurkTelekom').then((res)=>console.log(res));
+ytChLiveStream.getLiveStream('trthaber').then((res)=>console.log(res));
 ```
 
 Result:

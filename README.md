@@ -19,7 +19,8 @@ First of all, you need to find your youtube channel address. If your channel add
 ```
 var ytChLiveStream = require('youtube-channel-live-stream')
 
-ytChLiveStream.getLiveStream('trthaber',true).then((res)=>console.log(res));
+ytChLiveStream.getLiveStream('trthaber',true)
+.then((res)=>console.log(res));
 ```
 
 Result:
@@ -41,7 +42,8 @@ Result:
 ```
 var ytChLiveStream = require('youtube-channel-live-stream')
 
-ytChLiveStream.getLiveStream('UCNlfGuzOAKM1sycPuM_QTHg',false).then((res)=>console.log(res));
+ytChLiveStream.getLiveStream('UCNlfGuzOAKM1sycPuM_QTHg',false)
+.then((res)=>console.log(res));
 ```
 
 Result:
@@ -49,12 +51,12 @@ Result:
 [
   {
     videoId: 't5WhjYYM6dM',
-    videoTitle: 'Deep Focus Music To Improve Concentration - 12 Hours of Ambient Study Music to Concentrate #258',
+    videoTitle: 'Deep Focus Music To Improve',
     liveStatus: 'live'
   },
   {
     videoId: '8yRgYiNH39E',
-    videoTitle: '🔴 Deep Focus 24/7 - Ambient Music For Studying, Concentration, Work And Meditation',
+    videoTitle: '🔴 Deep Focus 24/7 - Ambient Music For Studying',
     liveStatus: 'live'
   },
   .
@@ -62,7 +64,7 @@ Result:
   .
   {
     videoId: 'Voh11CtTn4M',
-    videoTitle: '🔴 Deep Focus 24/7 - Ambient Music For Studying, Concentration, Work And Meditation Seascape',
+    videoTitle: '🔴 Deep Focus 24/7 - Ambient Music For Studying',
     liveStatus: 'live'
   }
 ]

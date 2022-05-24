@@ -1,6 +1,6 @@
 {
   "name": "youtube-channel-live-stream",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Get your channel all live stream",
   "main": "index.js",
   "scripts": {

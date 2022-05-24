@@ -1,0 +1,23 @@
+{
+  "name": "youtube-channel-live-stream",
+  "version": "1.0.1",
+  "description": "Get your channel all live stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "live",
+    "stream",
+    "get",
+    "channel",
+    "all",
+    "stream"
+  ],
+  "author": "m2095",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

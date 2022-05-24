@@ -1,6 +1,6 @@
 {
   "name": "youtube-channel-live-stream",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Get your channel all live stream",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omermertkaya/youtube-channel-live-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omermertkaya/youtube-channel-live-stream/issues"
+  },
+  "homepage": "https://github.com/omermertkaya/youtube-channel-live-stream#readme"
 }

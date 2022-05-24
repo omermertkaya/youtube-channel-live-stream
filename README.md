@@ -17,7 +17,7 @@ First of all, you need to find your youtube channel address. If your channel add
 **Example 1**
 
 ```
-var ytChLiveStream = require('youtube-channel-live-stream') // 
+var ytChLiveStream = require('youtube-channel-live-stream')
 
 ytChLiveStream.getLiveStream('trthaber',true).then((res)=>console.log(res));
 ```
@@ -39,7 +39,7 @@ Result:
 **Example 2**
 
 ```
-var ytChLiveStream = require('youtube-channel-live-stream') // 
+var ytChLiveStream = require('youtube-channel-live-stream')
 
 ytChLiveStream.getLiveStream('UCNlfGuzOAKM1sycPuM_QTHg',false).then((res)=>console.log(res));
 ```
